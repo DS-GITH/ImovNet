@@ -1,0 +1,13 @@
+{
+    "name": "ds/imovnet",
+    "description": "Um site de um portal imobiliario para botar em prática aprendizados em php",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DS",
+            "email": "david.tecds@gmail.com"
+        }
+    ],
+    "require": {}
+}
