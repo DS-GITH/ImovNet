@@ -4,12 +4,11 @@ namespace App\Controller;
 
 class BaseController
 {
-
-    function index(): void
+    public function index(): void
     {
-        require_once "View/home/index.php";
+        require_once __DIR__ . '/../View/home/index.php';
     }
-
 }
+
 
 ?>

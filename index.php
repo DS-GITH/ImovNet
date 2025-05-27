@@ -2,7 +2,8 @@
 
 use App\Controller\BaseController;
 
-require_once __DIR__ . '/vendor/autoload.php';
+require_once ("./vendor/autoload.php");
+
 
 if ($_GET):
 

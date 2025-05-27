@@ -1,6 +1,6 @@
 <?php 
 
-require_once 'View/shared/header.php';
+require_once './src/View/shared/header.php';
 
 
 ?>
