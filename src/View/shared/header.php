@@ -21,7 +21,19 @@
         flex: 1;
         align-items: center;
         display: flex;
+        margin-left: 20px;
         
+    }
+
+    .title{
+
+        font-size: 60px;
+        margin-right: 20px;
+                        
+    }
+
+    i{
+        margin: 5px;
     }
 
     .boxright{
@@ -31,6 +43,19 @@
         flex-direction: row;
         margin: 20px;
 
+    }
+
+    .inners{
+        display: flex;
+    }
+
+    .inner {
+        list-style: none;
+        margin: 15px;
+    }
+
+    a{
+        text-decoration: none;
     }
 
 
@@ -44,21 +69,21 @@
     <div class="container">
         <div class="boxleft">
 
-        <h1> <span> ImovNet </span> </h1>
+        <h1 class="title"> <span> ImovNet </span> </h1>
 
         <i class="fa-brands fa-facebook"></i>
         <i class="fa-brands fa-whatsapp"></i>
         <i class="fa-brands fa-instagram"></i>
 
-         </div>
+        </div>
     <div class="boxright">
 
         
-        <ul>
-    <li class="inner"><a href="">Nome</a></li>
-    <li class="inner"><a href="">Nome</a></li>
-    <li class="inner"><a href="">Nome</a></li>
-</ul>
+        <ul class="inners">
+    <li class="inner"><a href="#">Nome</a></li>
+    <li class="inner"><a href="#">Nome</a></li>
+    <li class="inner"><a href="#">Nome</a></li>
+        </ul>
 
         
 
